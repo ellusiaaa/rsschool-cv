@@ -11,7 +11,16 @@
 </head>
 <body class="page-body">
     <header>
-        <div class="container"></div>
+        <div class="container">
+            <section id="profile">
+                <img src="./assets/img/image.jpg" width="140" height="150"
+                alt="my foto">
+                <div class="title">
+                    <h1 class="section-title">YAFIMENKA ELVIRA</h1>
+                    <p>Front-End developer</p>
+                </div>
+            </section>
+        </div>
         <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -23,85 +32,75 @@
               <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
             </ul>
         </nav>
-             
     </header>  
-    
     <main>
-    <div class="container main-container"></div>
-
-    </main>
-
-    <div class="my-class"></div>
-    <div id="myid"></div>
-    <section class="section" id="profile">
-        <img src="./assets/img/image.jpg" 
-        alt="my foto">
-        <h1 class="section-title">YAFIMENKA ELVIRA</h1>
-        <p>Front-End developer</p>
-        <p>___________________   </p>
-    </section>
-    
-    <section class="section" id="summary">
-        <h2 class="section-title">Summary</h2>
-    <p> 
-        Dynamic and creative software developer
-        with 0 year of experience 
-        in producing robust code 
-        for high-volume companies :)
-    </p>
-    </section>
-    <section class="section" id="contacts">
-        <h2 class="section-title">Contacts:</h2>
-        <ul>
-            <li class="list-item">Phone: +375295553683</li>
-            <li class="list-item">Email: <a href="mailto:yafimenka.elvira@gmail.com">yafimenka.elvira@gmail.com</a></li>
-            <li class="list-item">Skype: <a href="https://join.skype.com/invite/DKBxfQQEPBIJ">Elvira</a></li>
-        </ul>
-    </section>
-    <section class="section" id="skills">
-        <h2 class="section-title">Skills:</h2>
-        <ul>
-            <li class="list-item">HTML</li>
-            <li class="list-item">CSS</li>
-            <li class="list-item">Java Script</li>
-            <li class="list-item">Git / Github</li>
-        </ul>
-    </section>
-    <section class="section" id="code">
-        <h2 class="section-title">Code:</h2>
-        <pre>
-            <code>
-                function noSpace(x)
-                {
-                return x.replace(/\s+/g, '');
-                }
-            </code>
-        </pre>
-
-    </section>
-    <section class="section" id="courses">
-        <h2 class="section-title">Courses:</h2>
-        <p>Подготовительный курс «JavaScript/Front-end. Stage 0</p>
-        <p><a href="https://rs.school/js-stage0/">RS School Stage 0</a></p>
-    </section>
-    <section class="section" id="education">
-        <h2 class="section-title">Education:</h2>  
-        <p>2011-2017</p>
-        <p>Mogilev Republic A. Kuleshov University (MSU)</p> 
-        <p>Faculty "Pedagogy and Psychology of Childhood"</p>
-    </section>
-    <section class="section" id="english">
-        <h2 class="section-title">English:</h2>  
-        <p>Pre-Intermediate (A2+)</p> 
-    </section>
-
+    <div class="container main-container">
+        <aside>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts:</h2>
+                <ul>
+                    <li class="list-item">Phone: +375295553683</li>
+                    <li class="list-item">Email: <a href="mailto:yafimenka.elvira@gmail.com">yafimenka.elvira@gmail.com</a></li>
+                    <li class="list-item">Skype: <a href="https://join.skype.com/invite/DKBxfQQEPBIJ">Elvira</a></li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills:</h2>
+                <ul>
+                    <li class="list-item">HTML</li>
+                    <li class="list-item">CSS</li>
+                    <li class="list-item">Java Script</li>
+                    <li class="list-item">Git / Github</li>
+                </ul>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English:</h2>  
+                <p>Pre-Intermediate (A2+)</p> 
+            </section>
+        
+        </aside>
+        <div class="main-page">
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p> 
+                    Dynamic and creative software developer
+                    with 0 year of experience 
+                    in producing robust code 
+                    for high-volume companies :)
+                </p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code:</h2>
+                <pre>
+                    <code>
+function noSpace(x) {
+    return x.replace(/\s+/g, '');
+}
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses:</h2>
+                <p>Подготовительный курс «JavaScript/Front-end. Stage 0</p>
+                <p><a href="https://rs.school/js-stage0/">RS School Stage 0</a></p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education:</h2>  
+                <p>2011-2017</p>
+                <p>Mogilev Republic A. Kuleshov University (MSU)</p> 
+                <p>Faculty "Pedagogy and Psychology of Childhood"</p>
+            </section>
+        </div>
+    </div>
+    </main>    
     <footer class="footer">
         <div class="container">
             <a class="footer-github nav-list" href="https://github.com/ellusiaaa/">My GitHub</a>
             <p class="footer-year nav-list">2022</p>
-            <a class="footer-rss nav-list" href="https://rs.school/">R S School</a>
+            <a class="footer-rss nav-list" href="https://rs.school/">               
+                <img src="./assets/img/logo.png" width="86" height="32" alt="RS School">    
+            </a>
         </div>
-
     </footer>
 </body>
 </html>
